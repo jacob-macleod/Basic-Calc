@@ -51,7 +51,7 @@ int calculation = 0;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        outputLbl.setText("Output");
+        outputLbl.setText("Click to clear");
         outputLbl.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 outputLblMouseClicked(evt);
